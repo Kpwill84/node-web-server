@@ -59,7 +59,7 @@ app.get('/Bad', (req, res) => {
   });
 });
 
-app.get('/porfortio', (req,res) => {
+app.get('/profortio', (req,res) => {
   res.render('profortio.hbs', {
     pageTitle: 'My Projects',
     Greeting: 'welcome, this page will list my projects'
