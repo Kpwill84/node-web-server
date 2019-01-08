@@ -59,6 +59,13 @@ app.get('/Bad', (req, res) => {
   });
 });
 
+app.get('/porfortio', (req,res) => {
+  res.render('porfortio.hbs', {
+    pageTitle: 'My Projects',
+    Greeting: 'welcome, this page will list my projects'
+  });
+});
+
 app.listen(port, () => {
   console.log(`server is up on port ${port}`);
 });
